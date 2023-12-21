@@ -30,3 +30,29 @@ body {
     font-style: unset;
     font-size: 20px;
 }
+
+.biografia h3 {
+    text-shadow: 2px 2px 2px #000;
+    margin-left: 150px;
+    font-size: 40px;
+}
+.biografia img {
+    display: flex;
+    position: relative;
+    width: 600px;
+    height: auto;
+}
+
+.biografia .cuadro1 {
+    gap: 10px;
+    width: 1200px;
+    display: inline-flex;
+}
+
+.biografia .cuadro1 p {
+    margin-left: 150px;
+    text-shadow: 2px 2px 2px #000;
+    padding: 10px;
+    font-size: 30px;
+    width: 600px;
+}
