@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(48, 48, 48);
+    color: whitesmoke;
+    margin: 20px;
+}
+.carousel {
+    background-color: black;
+    width: 95%;
+    margin: 2%;
+}
+
+.carousel-item img {
+    height: 600px;
+    opacity: 50%;
+}
+
+.carousel-caption {
+    background-color: rgb(29, 29, 29);
+    width: 80%;
+}
+
+.carousel-caption h5 {
+    color: white;
+    font-style: oblique;
+    font-size: 30px;
+}
+
+.carousel-caption p {
+    color: whitesmoke;
+    font-style: unset;
+    font-size: 20px;
+}
