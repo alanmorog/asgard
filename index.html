@@ -12,148 +12,78 @@
 
 <body>
 
-    <header>
-        <P>Asgard Página</P>
-        <!-- <nav>
-                <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Multimedia</a></li>
-                    <li><a href="">Shows</a></li>
-                    <li><a href="">Contacto</a></li>
-                </ul>
-            </nav> -->
-        <nav class="navbar navbar-dark bg-dark fixed-top">
+    <header id="navNav">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Asgard</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
-                    aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#navNav"><img src="./img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-                    aria-labelledby="offcanvasDarkNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Asgard</h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Multimedia</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Shows</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Merch</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
-                            </li>
-
-                        </ul>
-                        <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-success" type="submit">Search</button>
-                        </form>
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb- mb-lg-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#banner">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#banner2">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#banner3">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#banner4">Contacto</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <!-- Carrusel -->
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./img/carrusel1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Alan Moro - Guitarra</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus fugiat veritatis, fugit velit quam cupiditate..</p>
-                </div>
+
+
+    <section id="banner" class="banner">
+        <div class="banner-image">
+            <div class="backstretch">
+                <img src="./img/acatraz/acatraz-01.jpg" alt="">
             </div>
-            <div class="carousel-item">
-                <img src="./img/carrusel2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Fernando Gómez - Batería</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus fugiat veritatis, fugit velit quam cupiditate..</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./img/carrusel3.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption  ">
-                    <h5>Lucas Lugones - Guitarra</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus fugiat veritatis, fugit velit quam cupiditate..</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./img/carrusel4.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Hernán Agüero - Bajo</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus fugiat veritatis, fugit velit quam cupiditate..</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./img/carrusel5.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Santiago Gómez - Voz</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus fugiat veritatis, fugit velit quam cupiditate..</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./img/carrusel6.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Emanuel Garibo - Teclado</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus fugiat veritatis, fugit velit quam cupiditate..</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <section class="biografia">
-        <h3>BIO</h3>
-        <div class="cuadro1">
-            <p>Asgard es una banda de Hard Rock creada en el año 2005 oriunda de Florencio Varela, Buenos Aires. <br>
-            Con Influencias de artistas del puro rock de los 80s la banda intenta darle una cara moderna al sonido, sus integrantes son Alan Moro, 
-            Santiago Gómez, Lucas Lugones, Fernando Gómez, Emanuel Garibo, Hernán Agüero</p>
-            <img src="./img/bio1.jpg" alt="">
         </div>
     </section>
-    <br>
-    <hr> <br>
 
-    <div>
-        <h4>Enterate de nuestros proximos shows</h4>
-        <p>Fechas</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, qui delectus. Natus libero saepe
-            accusantium.</p>
-    </div>
-
-    <br>
-    <hr> <br>
-
-
-    <footer>
-        <div class="redes">
-            <p>Facebook</p>
-            <p>Instagram</p>
-            <p>Spotify</p>
-            <p>Youtube</p>
+    <section id="banner2" class="banner">
+        <div class="banner-image">
+            <div class="backstretch">
+                <img src="./img/acatraz/acatraz-02.jpg" alt="">
+            </div>
         </div>
-    </footer>
+    </section>
 
+    <section id="banner3" class="banner">
+        <div class="banner-image">
+            <div class="backstretch">
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="banner4" class="banner">
+        <div class="banner-image">
+            <div class="backstretch">
+                <img src="./img/acatraz/acatraz-03.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!--  scripts   -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>

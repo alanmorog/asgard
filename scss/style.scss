@@ -1,0 +1,58 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(47, 46, 46);
+}
+
+
+//barra de navegacion
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000!important;
+    border: none;
+    opacity: 80%;
+    box-shadow: 2px 2px 4px rgba(81, 81, 81, 0.1);
+
+    .navbar-brand{
+        img{
+            width: 200px;
+            height: auto;
+        }
+    }
+    .navbar-nav {
+        margin: 20px;
+        font-size: 20px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    #navbarSupportedContent {
+        .nav-item {
+            display: flex;
+            justify-content: center!important;
+            .nav-link {
+                border-radius: 10px;
+                margin: 10px;
+                padding: 5px;
+                color: white;
+            }
+        }
+    }
+
+
+}
+
+.banner {
+    .banner-image{
+        .backstretch{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
