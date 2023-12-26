@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: rgb(47, 46, 46);
+  background-color: rgb(225, 223, 223);
 }
 
 .navbar {
@@ -12,15 +12,12 @@ body {
   width: 100%;
   background-color: #000 !important;
   border: none;
-  opacity: 80%;
   box-shadow: 2px 2px 4px rgba(81, 81, 81, 0.1);
 }
-
 .navbar .navbar-brand img {
   width: 200px;
   height: auto;
 }
-
 .navbar .navbar-nav {
   margin: 20px;
   font-size: 20px;
@@ -29,12 +26,6 @@ body {
   margin-right: auto;
   text-align: center;
 }
-
-.navbar #navbarSupportedContent .nav-item {
-  display: flex;
-  justify-content: center !important;
-}
-
 .navbar #navbarSupportedContent .nav-item .nav-link {
   border-radius: 10px;
   margin: 10px;
@@ -44,6 +35,28 @@ body {
 
 .banner .banner-image .backstretch img {
   width: 100%;
-} 
+}
+.banner .banner-image .shows h3 {
+  text-align: center;
+}
+.banner .banner-image .shows h3 a {
+  text-decoration: none;
+  color: #fff;
+  background-color: red;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #000;
+}
+
+.banner3 .banner-image {
+  width: 100%;
+  height: 750px;
+  margin: 100px;
+}
+
+iframe {
+  width: 1122px;
+  height: 500px;
+}
 
 /*# sourceMappingURL=style.css.map */
