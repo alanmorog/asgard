@@ -17,7 +17,7 @@ document.getElementById("checkout-btn").addEventListener("click", async () => {
       price: 10,
     };
 
-    const response = await fetch("https://alanmorog.github.io/asgard/create_preference", { 
+    const response = await fetch("http://localhost:3000/create_preference", { 
       method: "POST",
       headers: {
         "Content-Type": "application/json",
