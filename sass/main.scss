@@ -232,6 +232,11 @@ iframe {
 }
 
 @media screen and (max-width: 679px) {
+    .navbar{
+        top: 0;
+        background-color: #343434 !important;
+        width: 60%;
+    }
     .banner3 {
         height: 1000px;
         padding: 0%;
@@ -279,9 +284,6 @@ iframe {
         height: 500px;
     }
 
-    body {
-        background-color: gray;
-    }
 
     .banner3 {
         .banner-image {
