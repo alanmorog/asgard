@@ -179,7 +179,6 @@ iframe {
     width: 100%;
     height: 720px;
     background-color: #fff;
-    //background-image: url("yourimage");
     background-blend-mode: luminosity;
 
     .banner-image {
@@ -391,7 +390,6 @@ iframe {
                     margin-left: 30%;
                     position: absolute;
                     flex-direction: row;
-
                     img {
                         margin-top: 50%;
                     }
@@ -401,11 +399,14 @@ iframe {
     }
 }
 
-@media screen and (max-width: 679px) {
+@media screen and (max-width: 678px) {
     .navbar{
+        position: inherit;
         top: 0;
         background-color: #343434 !important;
-        width: 60%;
+        .navbar-collapse{
+            z-index: 3;
+        }
     }
     .banner3 {
         height: 1000px;
@@ -415,7 +416,6 @@ iframe {
             margin: 0px;
 
             .backstretch {
-                max-width: 100%;
                 margin: 0;
                 padding: 5%;
 
@@ -486,11 +486,6 @@ iframe {
                     }
 
                     iframe {
-                        /* margin: 5px;
-                        width: 200px;
-                        height: 200px;
-                        padding: 10px;
-                        margin-top: 150px; */
                         visibility: hidden;
                     }
 
@@ -522,7 +517,7 @@ iframe {
 
     .banner {
         .banner-image {
-            z-index: -100;
+            z-index: 1;
 
             .backstretch {
                 img {
@@ -534,6 +529,7 @@ iframe {
                 position: absolute;
                 top: 30%;
                 left: 30%;
+                z-index: 2;
 
                 h3 {
                     text-align: center;
@@ -555,7 +551,6 @@ iframe {
         .banner-image {
             .enlaces {
                 margin-right: 35%;
-
                 img {
                     width: 80%;
                 }
