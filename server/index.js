@@ -13,7 +13,11 @@ const client = new MercadoPagoConfig({ accessToken: 'APP_USR-3340026957331073-12
 const app = express();
 const port = 3000;
 
-app.use(cors());
+app.use(cors({
+    origin: 'https://alanmorog.github.io/asgard' // Reemplaza "tudominio" con tu dominio real de <link>GitHub Pages</link>
+}));
+
+
 app.use(express.json());
 
 app.get("/", (req, res) => {
