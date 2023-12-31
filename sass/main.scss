@@ -117,11 +117,6 @@ iframe {
     }
 }
 
-/* .redes {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-} */
 
 .banner3 {
     .banner-image {
@@ -319,10 +314,12 @@ iframe {
                     }
 
                     iframe {
-                        margin: 5px;
-                        width: 350px;
-                        height: 300px;
+                        /* margin: 5px;
+                        width: 200px;
+                        height: 200px;
                         padding: 10px;
+                        margin-top: 150px; */
+                        visibility: hidden;
                     }
 
                     button {
